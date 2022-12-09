@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Kanit:wght@400;600;700&display=swap');
+
+body {
+    background-color: #0c3f8c;
+}
+
+.navbar-example2 {
+    /*  make phone number bigger ???*/
+    font-size: xx-large;
+}
+.navbar-brand > img {
+    width: 15%;
+    height: 15%;
+}
+
+.navbarlogo, .navbarpad
+{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar {
+    background-color: gray;
+}
+
+a {
+    font-family: 'Kanit',sans-serif;
+    font-weight: 700;
+}
+
+h5 {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+p, ul {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    font-size:large ;
+}
+
+.card-body {
+    color: white;
+    background-color: black;
+}
+
+.accordion .headingOne {
+    width: 50%;
+    justify-items: flex-start;
+}
+
+.accordion-header {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+}
+
+.accordion-item {
+    background-color: gray;
+    color: white;
+}
+
+blockquote, .blockquote-footer {
+    background-color: gray;
+}
+
+.blockquote-footer {
+    color: #0c3f8c;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+footer {
+    position: initial;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: large;
+    color: white;
+}
+
+/*media screen adjustments*/
+@media screen and (max-width: 700px){
+    .navbar {
+        font-size: large;
+    }
+    
+    h5, p, a, ul {
+        font-family: 'Heebo', sans-serif;
+    }
+
+    .card-body {
+        color: white;
+        background-color: rgb(177, 41, 41);
+    }
+    
+    .accordion-item {
+        background-color: gray;
+        color: white;
+    }
+
+    .blockquote-footer {
+        color: red;
+    }
+
+    .nav-link
+    {
+        padding: 10px;
+    }
+
+    .card-group img {
+        display: none;
+    }
+
+    .container {
+        width: 80%;
+        justify-content: space-between;
+    }
+}
