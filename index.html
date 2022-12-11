@@ -12,8 +12,13 @@
   <script src="https://kit.fontawesome.com/37d351bed7.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+  <!--
+    Author: Alyssa Cooper
+    Final Project WebDev 1
+    Date: 12/12/22
+  -->
 
+<body>
   <!--navigation bar-->
   <nav class="navbar navbar-expand-lg sticky-top navbarpad">
     <nav id="navbar-example2" class="navbar px-3 mb-3">
@@ -43,13 +48,15 @@
     <div id="scrollspyHeading1" class="card-group p-5">
       <div class="card">
         <div class="card-body">
+            <!--introduction to Brower Electric-->
           <h5 class="card-title"><i class="fa-solid fa-bolt"></i>Brower Electric | Accurate Electrical Service</h5>
           <p class="card-text">Serving Missouri Since 1978. We are a family owned multigenerational business. Support
             our small electrical contracting company! We install fire alarms, security, lighting systems, etc.
           <p>
           <p>
-            <button class="btn" style="background-color:#0c3f8c; color:white;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
-              aria-expanded="false" aria-controls="collapseExample">
+            <!--testimonials-->
+            <button class="btn" style="background-color:#0c3f8c; color:white;" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
               Testimonials
             </button>
           </p>
@@ -93,6 +100,7 @@
       </div>
       <div class="card">
         <div class="card-body">
+            <!--partners and vendors-->
           <h5 class="card-title"><i class="fa-solid fa-handshake"></i> Partners/Vendors</h5>
           <p class="card-text">We collaborate with contractors including: Grooms Construction Co, Springfield Builders
             Inc, Licking Construction Co., Septagon Construction Co., DCI Construction Co., etc. We also work with our
@@ -107,7 +115,8 @@
       <!--Contact/About section-->
       <div class="card p-5">
         <div class="card-body">
-          <h5 class="card-title">Contact Information</h5>
+            <!--all contact information-->
+          <h5 class="card-title"><i class="fa-solid fa-address-book"></i> Contact Information</h5>
           <ul class="list-group list-group-flush">
             <li class="list-group-item">Primary Contact: Stephanie Jones, Office Manager/Accounting | <a
                 href="mailto:browerelectric@yahoo.com" class="card-link">Email</a></li>
@@ -115,7 +124,6 @@
             <li class="list-group-item">Address: P.O. Box 5 Bevier, MO 63532 | Branch Office located in Springfield</li>
             <li class="list-group-item">Josh Brower, Master Electrician/Estimator | <a
                 href="mailto:brower_josh@yahoo.com" class="card-link">Email</a> | Cell: (417)-343-1821</li>
-
             <li class="list-group-item">Donald Brower, Owner/Project Manager | <a href="mailto:electric@cvalley.net"
                 class="card-link">Email</a> | Phone: (660) 651-0251</li>
           </ul>
@@ -124,34 +132,36 @@
       <div class="card-group p-5">
         <div class="card">
           <div class="card-body">
+              <!--about Brower Electric/History-->
             <img src="images/industrialwiring.jpg" class="card-img-top" alt="industrial wiring">
-            <h5 class="card-title">About Our Company</h5>
+            <h5 class="card-title"><i class="fa-solid fa-lightbulb"></i> About Our Company</h5>
             <p class="card-text">We have been serving Missouri and the surroundings states since 1978. We are a
-              family ran, multigenerational business. Mike Brower has retired but his legacy is continued by Josh and
-              Donald.
-              Brower Electric covers all of Missouri (also licensed in Arkansas).</p>
-            <h5><i class="fa-solid fa-building-circle-check"></i> Completed Projects</h5>
+              family ran, multigenerational business. Mike Brower has retired, but his legacy is continued by his sons, Josh and
+              Donald. Brower Electric covers all of Missouri (also licensed in Arkansas).</p>
+            <h5><i class="fa-solid fa-building-circle-check"></i> Projects</h5>
             <p class="card-text">Electrical projects we have completed include: churches, city hall buildings, community
               centers, CVS Pharmacys, Dollar Generals, O'Reilly stores, strip malls, fast food restaurants, apartments,
               schools, etc.</p>
           </div>
         </div>
+        <!--other important information-->
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Business Hours</h5>
+            <h5 class="card-title"><i class="fa-solid fa-clock"></i> Business Hours</h5>
             <p class="card-text">Monday - Friday: 8 a.m. - 5 p.m.
             </p>
-            <h5 class="card-title">Employee Benefits</h5>
+            <h5 class="card-title"><i class="fa-solid fa-user-plus"></i> Employee Benefits</h5>
             <p class="card-text">Safe Harbor 401K and PTO up to 40 hours
             <p class="card-text">Vacation time; 40 hours your 1st year, 80 hours your 2nd year. New employees can earn
               up to 80 hours of PTO/vacation time their 1st year and 120 hours their 2nd year.</p>
 
-            <!-- Button trigger modal -->
-            <button class="btn" type="button" style="background-color:#0c3f8c; color:white;" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <!-- Button trigger modal for employment-->
+            <button class="btn" type="button" style="background-color:#0c3f8c; color:white;" data-bs-toggle="modal"
+              data-bs-target="#exampleModal">
               Employment Form
             </button>
 
-            <!-- Modal -->
+            <!--Employment modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
               aria-hidden="true">
               <div class="modal-dialog">
@@ -161,6 +171,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                   </div>
                   <div class="modal-body">
+                    <!--beginning of form-->
                     <form class="row g-3">
                       <div class="col-md-6">
                         <input type="text" class="form-control" placeholder="First name" aria-label="First name">
@@ -216,8 +227,10 @@
                     </form>
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn" style="background-color:black; color:white;" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn" style="background-color:#0c3f8c; color:white;">Save changes</button>
+                    <button type="button" class="btn" style="background-color:black; color:white;"
+                      data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn" style="background-color:#0c3f8c; color:white;">Save
+                      changes</button>
                   </div>
                 </div>
               </div>
@@ -263,10 +276,10 @@
       <div class="container p-5">
         <div class="accordion" id="accordionExample">
           <div class="accordion-item">
+            <!--vendors accordion-->
             <h2 class="accordion-header" id="headingOne">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-                aria-expanded="true" aria-controls="collapseOne">
-                Vendors
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Vendors
               </button>
             </h2>
             <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
@@ -283,12 +296,14 @@
             </div>
           </div>
           <div class="accordion-item">
+            <!--Projects accordion-->
             <h2 class="accordion-header" id="headingTwo">
-              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Timeline of Projects
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Timeline of Projects
               </button>
             </h2>
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
               <div class="accordion-body">
                 <h5>Current Projects:</h5>
                 <table class="table table-striped table-light">
