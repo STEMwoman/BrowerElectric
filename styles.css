@@ -24,32 +24,30 @@ body {
 }
 
 nav a {
-    padding: 5px;
+    padding: 12px;
     text-decoration: none;
 }
 
 nav a:link {
-    color: blueviolet;
-}
-
-  /* visited link */
-nav a:visited {
-    color: green;
+    color: #0c3f8c;
 }
 
   /* mouse over link */
-nav a:hover {
-    color: red;
+nav li a:hover {
+    color: white;
+    background-color: #0c3f8c;
+    padding: 5px;
+    border-radius: 10px;
 }
 
-  /* selected link */
-nav a:active {
-    color: yellow;
+nav a:visited {
+    color: #0c3f8c
 }
 
 a {
     font-family: 'Kanit',sans-serif;
     font-weight: 700;
+    font-size:large
 }
 
 h5 {
@@ -62,8 +60,8 @@ p, ul {
     font-weight: 400;
 }
 
-a {
-    font-size:large ;
+li a {
+    color: #0c3f8c;
 }
 
 .card-body {
@@ -94,8 +92,8 @@ blockquote, .blockquote-footer {
     color: #0c3f8c;
 }
 
-.container {
-    justify-content: space-between;
+.titletab, .tabdata {
+    font-weight: 600;
 }
 
 footer {
@@ -111,7 +109,11 @@ footer {
 /*media screen adjustments*/
 @media screen and (max-width: 700px){
     .navbar {
-        font-size: large;
+        font-size: medium;
+    }
+
+    nav a {
+        padding: 7px;
     }
     
     h5, p, a, ul {
@@ -124,12 +126,12 @@ footer {
     }
     
     .accordion-item {
-        background-color: gray;
+        background-color: black;
         color: white;
     }
 
     .blockquote-footer {
-        color: red;
+        color: black;
     }
 
     .card-group img {
@@ -139,5 +141,9 @@ footer {
     .container {
         width: 80%;
         justify-content: space-between;
+    }
+    
+    footer {
+        font-size: medium;
     }
 }
